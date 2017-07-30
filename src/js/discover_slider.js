@@ -35,9 +35,10 @@ $(document).ready(function () {
         slides[index - 1].style.display = "block";
         
         if (icons[index - 1].src.indexOf("active") == -1) {
-                var path = icons[index - 1].src.split(".");
-                icons[index - 1].src = path[0] + "active.png";
-                console.log(path);
+                icons[index - 1].src.split(".");
+                icons[index - 1].splice(3, 0, "active");
+                icons[index - 1].join();
+                console.log(icons[index - 1].join());
             }
     }
 });
