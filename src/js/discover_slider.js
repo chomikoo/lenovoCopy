@@ -37,7 +37,6 @@ $(document).ready(function () {
         if (icons[index - 1].src.indexOf("active") == -1) {
                var path = icons[index - 1].src.split(".");
                 icons[index - 1].src = "./img/icon-" + index + "active.png";
-                console.log(icons[index].src);
             }
     }
 });
