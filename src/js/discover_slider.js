@@ -35,9 +35,9 @@ $(document).ready(function () {
         slides[index - 1].style.display = "block";
         
         if (icons[index - 1].src.indexOf("active") == -1) {
-                icons[index - 1].src.splice(3, 0, "active");
-                icons[index - 1].join();
-                console.log(icons[index - 1].join());
+               var path = icons[index - 1].src.split(".");
+                icons[index - 1].src = path[0] + path[1] + path[3] + "active.png";
+                console.log(icons[index - 1].src);
             }
     }
 });
