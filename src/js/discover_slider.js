@@ -30,7 +30,7 @@ $(document).ready(function () {
             slides[i].style.display = "none";
         }
         for (i = 0; i < icons.length; i++) {
-            icons[i].src="../img/icon-" + (i+1) +".png";
+            icons[i].src="./img/icon-" + (i+1) +".png";
         }
         slides[index - 1].style.display = "block";
         
