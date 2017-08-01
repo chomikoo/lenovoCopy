@@ -30,18 +30,12 @@ $(document).ready(function () {
             slides[i].style.display = "none";
         }
         for (i = 0; i < icons.length; i++) {
-            
-            icons[i].src="../img/icon-" + i+1 +".png";
-            console.log(icons[i].src="../img/icon-" + (i+1) +".png");
-            
+            icons[i].src="./img/icon-" + (i+1) +".png";
         }
         slides[index - 1].style.display = "block";
         
         if (icons[index - 1].src.indexOf("active") == -1) {
-                var path = icons[index - 1].src.split(".");
-                console.log(path[0] + " " + path[1]  + " " + path[2]  + " " + path[3]  + " " + path[4]); 
-                icons[index - 1].src =".img/icon-"+ (index - 1) + "active.png";
-                console.log(icons[index - 1].src);
+                icons[index - 1].src = "./img/icon-" + index + "active.png";
             }
     }
 });
