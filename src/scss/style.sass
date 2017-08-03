@@ -1,6 +1,5 @@
 @import "settings";
 
-
 *
     box-sizing: border-box
 
@@ -8,104 +7,117 @@ body
     backgroud-color: $color-bg
     font-family: 'Lato', sans-serif
 
-    
+//    / HEADER
+
 header
     .logo_lenovo
+        left: 0
         position: fixed
         top: 0
-        left: 0
+        width: 76px
         z-index: 99
-        width: 70px
     .header_menu
-        background-color: rgba(255, 255, 255, 0.8) 
-        position: fixed
-        top: 0
-        left: 0
-        right: 0
+        background-color: rgba(255, 255, 255, 0.93) 
         display: block
         float: left
-        margin-left: 35px
-        margin-top: 0
+        margin-left: 60px
+        margin-top: -3px
+        position: fixed
+        right: 0
+        top: 0
+        left: 0
         z-index: 98
         > li 
+            cursor: pointer
             display: inline-block
             padding: 20px
-            cursor: pointer
             a
                 color: $grey
                 font-size: 13px
-                text-transform: uppercase
                 text-decoration: none
+                text-transform: uppercase
+                &.list
+                    color: $light_blue
                
-        
-    
+//    /HERO BACKGROUND
 .hero
     background-image: url("../img/home-bg.jpg")
-    background-size: cover
+    background-position: top right
     background-repeat: no-repeat
-    background-position: right top
+    background-size: 100% 100%
     .hero_content
-        margin-top: 95px
-        margin-left: 95px
+        margin: 90px 0 0 110px
         .yoga_logo
             width: 220px
-            margin-bottom: 70px
+            margin-bottom: 58.8px
         .title
             color: $black
-            font-size: 35px
-            font-weight: 400
+            font-size: 30.8px
             letter-spacing: 3px
             margin-top: -10px
+            margin-bottom: 49.28px
             text-transform: uppercase
         p
-            text-transform: uppercase
-            letter-spacing: 3px
             color: $light_blue
-            margin-bottom: 30px
+            font-size: 18.2px
+            
+            letter-spacing: 3px
+            
+            margin-bottom: 54.4px
+            text-transform: uppercase
         .btn 
-            text-transform: uppercase
-            color: $light_blue
-            letter-spacing: 3px
             border: 2px solid $light_blue
-            text-decoration: none
+            color: $light_blue
+            display: inline-block
+            font-size: 18.2px
+            letter-spacing: 3px
+            line-height: 1.42857143
+            margin-bottom: 85.54px
             padding: 6px 12px
+            text-decoration: none
+            text-transform: uppercase
             transition: 0.5s ease
             &:hover 
-                color: $color-bg
                 background-color: $light_blue
+                color: $color-bg
         .processor
-            display: flex
             align-items: flex-end
-            margin-top: 100px
+            display: flex
+            padding-bottom: 57.62px
             img
                 height: 100px
                 width: 100px
             .processor_description
-                list-style-type: none
-                margin-left: -30px
-                font-size: 10px
+                margin-left: 10px
+                margin-bottom: -6px
+                font-size: 11px
     
 .title_section
+        font-size: 25.8px
         font-weight: 400
+        margin: 50.5px 0 45.4px 0 
         text-transform: uppercase
-        margin: 55px 0 40px 0            
+                   
             
 .technology
     text-align: center
     .description
-        margin: 0 auto
-        width: 65%
-        font-size: 18px
-        text-align: justify
-        padding-top: 15px
-        padding-bottom: 15px
+        font-size: 15.4px
         font-weight: 300
+        margin: 0 auto
+        width: 64%
+        margin: 15.5px auto
+        padding-bottom: 15px
+        padding-top: 15px
+        text-align: justify
+        width: 64%
     .video-container
-        position: relative
+        height: 0
         padding-bottom: 56.25%
         padding-top: 25px
-        height: 0
+        position: relative
         iframe
+            border-width: 0
             position: absolute
             top: 0
             left: 0
@@ -119,25 +131,25 @@ header
     .discover_slider
         display: none
         margin: 0 auto
-        width: 75%
+        width: 67%
         img
             width: 100%
         .discover_description
             h3
                 color: $light_blue
-                font-size: 22px
+                font-size: 19.6px
                 font-weight: 400
                 text-align: left
                 text-transform: uppercase
             p 
+                font-size: 15.4px
                 font-weight: 300
                 text-align: justify
     .buttons_slider
         display: flex
         flex-direction: column
         position: absolute
-        top: 50%
-        transform: translateY(-50%)
+        top: 15%
         right: 5%
         .icon 
             width: 50px
@@ -146,70 +158,64 @@ header
 
 .discover_more
     position: relative
+    padding: 0 15px 0 15px
     .title_section
         text-align: center
         width: 100%
-    .siema    
-        display: flex
-        flex-direction: row
-        flex-wrap: wrap
-        justify-content: flex-start
-        .card
-            float: none
-            width: 48%;
-            height: 500px
-            background-position: left
-            background-size: cover
-            position: relative
-            margin: 7px
-            .img_description
-                background-color: rgba(255, 255, 255, 0.8)
-                height: 25%
-                position: absolute
-                bottom: 0
-                left: 0
-                right: 0
-                padding: 20px
-                overflow: hidden
-                transition: 0.5s ease
-                h4
-                    color: $light_blue
-                    font-weight: 400
-                    text-transform: uppercase
-                p
-                    font-weight: 300
-                    opacity: 0
-                    transition: 0.7s ease
-            &:hover .img_description
-                height: 50%
-                p 
-                    opacity: 1
-        .card_1
-            background-image: url("../img/box-bg-1.jpg")
-        .card_2
-            background-image: url("../img/box-bg-2.jpg")
-        .card_3
-            background-image: url("../img/box-bg-3.jpg")
-        .card_4
-            background-image: url("../img/box-bg-4.jpg")
-        .card_5
-            background-image: url("../img/box-bg-5.jpg")
-        .card_6
-            background-image: url("../img/box-bg-6.jpg")
-    button
-        border: none
-        background: transparent
-        display: none
-        position: absolute
-        top: 50%
-        z-index: 100
-        img
-            width: 27px
-    .prev
-        left: 25px
-    .next
-        right: 25px
-        
+    .swiper-container
+        min-height: 450px
+        width: 100%
+        .swiper-wraper  
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            justify-content: space-between
+            align-content: center
+            align-items: flex-start
+            .swiper-slide
+                background-position: left
+                background-size: cover
+                position: relative
+                width: 49%;
+                margin-bottom: 2%
+                height: 500px;
+                .img_description
+                    background-color: rgba(255, 255, 255, 0.8)
+                    height: 30%
+                    position: absolute
+                    bottom: 0
+                    left: 0
+                    right: 0
+                    padding: 7.5%
+                    overflow: hidden
+                    transition: 0.5s ease
+                    h4
+                        color: $light_blue
+                        font-weight: 400
+                        text-transform: uppercase
+                        letter-spacing: 3px
+                    p
+                        font-size: 14px
+                        font-weight: 300
+                        opacity: 0
+                        transition: 0.7s ease
+                &:hover .img_description
+                    height: 60%
+                    p 
+                        opacity: 1
+            .slide_1
+                background-image: url("../img/box-bg-1.jpg")
+            .slide_2
+                background-image: url("../img/box-bg-2.jpg")
+            .slide_3
+                background-image: url("../img/box-bg-3.jpg")
+            .slide_4
+                background-image: url("../img/box-bg-4.jpg")
+            .slide_5
+                background-image: url("../img/box-bg-5.jpg")
+            .slide_6
+                background-image: url("../img/box-bg-6.jpg")
+       
         
 .specification_list,
 .shops
@@ -217,90 +223,206 @@ header
     float: left
     padding: 20px
     text-align: center
-
     ul
         list-style-type: none
         line-height: 1.8
         font-size: 14px
         padding: 10px
         .lblue
-            color: $light_blue
+           color: $light_blue
+
+.specification_list
+    ul
+        li
+            margin-bottom: 7px
 .shops
-    .shop
-        border: 1px solid $light_blue
-        margin: 0 auto
-        margin-bottom: 10px
-        width: 150px
-        img 
-            padding: 5%
-            width: 90%
+    .shop_list
+        display: flex
+        flex-direction: column
+        .shop
+            border: 1px solid $light_blue
+            margin: 0 auto
+            margin-bottom: 10px
+            position: relative
+            width: 150px
+            img 
+                padding: 5%
+                width: 90%
+            .overlay
+                color: $white
+                display: flex
+                justify-content: center
+                align-items: center
+                margin: 0
+                position: absolute
+                left: 0
+                top: 0
+                width: 100% 
+                height: 100%
+                background-color: $light_blue
+                text-transform: uppercase
+                font-size: 14px
+                opacity: 0
+                transition: 0.5s ease
+            &:hover .overlay
+                opacity: 1
+                
     
 .yoga_star
     float: left
+    margin-bottom: 5%
     width: 100%
     img 
         display: block
         margin: 0 auto
         width: 50%
         
-@media (max-width: $tablet)
+        
+@media (max-width: 990px)
     header 
         .logo_lenovo 
             width: 56px
         .header_menu
-            display: none
-            
+            > li
+                display: none
+        .hero    
+            background-size: contain
+            .hero_content
+                margin-top: 60px
+                margin-left: 76px
+                .yoga_logo
+                    margin: 0
+                    width: 200px  
+                .title
+                    font-size: 20px
+                    font-weight: 600
+                    letter-spacing: 0px
+                    line-height: 1.1
+                    margin: 12.5px 0
+                p
+                    font-size: 18px
+                    margin: 14.9px 0
+                    letter-spacing: 0px
+                .btn
+                    margin-bottom: 20px
+                    font-weight: 400
+                    font-size: 14px
+                    border: 1px solid #4bc1e2
+                    letter-spacing: 0px
+                .processor
+                    img
+                        height: 50px
+                        width: 50px
+                    .procesor_description
+                        font-size: 7.9px
     .title_section
         font-size: 16px
+        margin: 28px 0 14px 0
                 
     .technology
+        padding-left: 15px
+        padding-right: 15px
         .description
-            width: 90%
-            
+            width: 100%
+            margin-top: 0
+            margin-bottom: 0
+    .discover
+        .discover_slider
+            width: 100%
+            .discover_description
+                padding-left: 15px
+                padding-right: 15px          
+        .buttons_slider
+            right: 15px
+            .icon 
+                width: 30px
+                margin: 5px
+
     .discover_more 
-        .siema
-            .card
-                float: left !important
-                width: 100% !important
-                .img_description
-                    height: 50%
-                    p
-                        opacity: 1
-        button
-            display: block
+        padding: 0
+        .swiper-container
+            height: 400px
+            .swiper-wraper
+                .swiper-slide
+                    width: 100% !important
+                    margin: 0
+                    .img_description
+                        height: 60%
+                        padding: 15px
+                        h4
+                            font-size: 17px
+                            letter-spacing: 0px
+                        p
+                            opacity: 1
+                            font-size: 15px
+        .swiper-button-prev,
+        .swiper-button-next
+            top: 15%
+            z-index: 100
+            img
+                    width: 30px
         
                         
-    .specification_list,
+    .specification_list
+        width: 100%
+        ul
+            li
+                line-height: 1.6
+                font-size: 16px
+
     .shops
         width: 100%
+        padding: 0 15px 15px 15px
+        .shop_list
+            flex-direction: row
+            flex-wrap: wrap
+            .shop
+                flex-basis: 49% 
+                img 
+                    padding: 0   
+                    max-width: 233px  
+                    height: 100%
+                    width: auto
+
+    .yoga_star
+        img
+            width: 90%
         
-@media (max-width: $mobile)
+@media (max-width: 760px)
     header 
         .logo_lenovo 
             width: 35px
-    .hero
-        background-size: contain
-        background-position: top right
-        .hero_content
-            margin: 0 auto
-            text-align: center
-            .yoga_logo
-                margin: 0 auto
-                margin-top: 50%
-            .title
-                font-size: 30px
-                margin-top: 10px 
-            .processor
-                img
-                    width: 50px
-                    height: auto
+        .hero
+            background-size: contain
+            background-position: top right
+            margin-top: 70px
+            .hero_content
+                margin: 0 auto;
+                text-align: center
+                margin-left: 15px
+                margin-right: 15px
+                .yoga_logo
+                    margin: 0 auto
+                    margin-top: 50%
+                .title
+                    font-size: 30px
+                    margin-top: 10px 
+                .processor
+                    img
+                        width: 50px
+                        height: auto
+                    .processor_description
+                        text-align: left
     .discover
         .buttons_slider
-            top: 40%
+            top: 0
             .icon
                 width: 30px
     .specification_list ul
         list-style-type: disc
         text-align: left
                 
+    .yoga-star
+        img
+            width: 100%
                 

@@ -1,358 +1,498 @@
-/* line 4, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 3, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 * {
   box-sizing: border-box; }
 
-/* line 7, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 6, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 body {
   backgroud-color: #ffffff;
   font-family: 'Lato', sans-serif; }
 
 /* line 13, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 header .logo_lenovo {
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  z-index: 99;
-  width: 70px; }
+  width: 76px;
+  z-index: 99; }
 
 /* line 19, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 header .header_menu {
-  background-color: rgba(255, 255, 255, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  background-color: rgba(255, 255, 255, 0.93);
   display: block;
   float: left;
-  margin-left: 35px;
-  margin-top: 0;
+  margin-left: 60px;
+  margin-top: -3px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
   z-index: 98; }
   /* line 30, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   header .header_menu > li {
+    cursor: pointer;
     display: inline-block;
-    padding: 20px;
-    cursor: pointer; }
+    padding: 20px; }
     /* line 34, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     header .header_menu > li a {
       color: #787878;
       font-size: 13px;
-      text-transform: uppercase;
-      text-decoration: none; }
+      text-decoration: none;
+      text-transform: uppercase; }
+      /* line 39, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .header_menu > li a.list {
+        color: #4bc1e2; }
 
-/* line 42, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 43, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .hero {
   background-image: url("../img/home-bg.jpg");
-  background-size: cover;
+  background-position: top right;
   background-repeat: no-repeat;
-  background-position: right top; }
-  /* line 47, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  background-size: 100% 100%; }
+  /* line 48, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .hero .hero_content {
-    margin-top: 95px;
-    margin-left: 95px; }
+    margin: 90px 0 0 110px; }
     /* line 50, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .hero .hero_content .yoga_logo {
       width: 220px;
-      margin-bottom: 70px; }
+      margin-bottom: 58.8px; }
     /* line 53, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .hero .hero_content .title {
       color: #000000;
-      font-size: 35px;
-      font-weight: 400;
+      font-size: 30.8px;
       letter-spacing: 3px;
       margin-top: -10px;
+      margin-bottom: 49.28px;
       text-transform: uppercase; }
     /* line 60, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .hero .hero_content p {
-      text-transform: uppercase;
-      letter-spacing: 3px;
       color: #4bc1e2;
-      margin-bottom: 30px; }
-    /* line 65, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      font-size: 18.2px;
+      letter-spacing: 3px;
+      margin-bottom: 54.4px;
+      text-transform: uppercase; }
+    /* line 68, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .hero .hero_content .btn {
-      text-transform: uppercase;
-      color: #4bc1e2;
-      letter-spacing: 3px;
       border: 2px solid #4bc1e2;
-      text-decoration: none;
+      color: #4bc1e2;
+      display: inline-block;
+      font-size: 18.2px;
+      letter-spacing: 3px;
+      line-height: 1.42857143;
+      margin-bottom: 85.54px;
       padding: 6px 12px;
+      text-decoration: none;
+      text-transform: uppercase;
       transition: 0.5s ease; }
-      /* line 73, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .hero .hero_content .btn:hover {
-        color: #ffffff;
-        background-color: #4bc1e2; }
-    /* line 76, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .hero .hero_content .processor {
-      display: flex;
-      align-items: flex-end;
-      margin-top: 100px; }
       /* line 80, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .hero .hero_content .btn:hover {
+        background-color: #4bc1e2;
+        color: #ffffff; }
+    /* line 83, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .hero .hero_content .processor {
+      align-items: flex-end;
+      display: flex;
+      padding-bottom: 57.62px; }
+      /* line 87, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
       .hero .hero_content .processor img {
         height: 100px;
         width: 100px; }
-      /* line 83, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      /* line 90, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
       .hero .hero_content .processor .processor_description {
-        list-style-type: none;
-        margin-left: -30px;
-        font-size: 10px; }
+        margin-left: 10px;
+        margin-bottom: -6px;
+        font-size: 11px; }
 
-/* line 88, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 95, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .title_section {
+  font-size: 25.8px;
   font-weight: 400;
-  text-transform: uppercase;
-  margin: 55px 0 40px 0; }
+  margin: 50.5px 0 45.4px 0;
+  text-transform: uppercase; }
 
-/* line 93, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 102, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .technology {
   text-align: center; }
-  /* line 95, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 104, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .technology .description {
+    font-size: 15.4px;
+    font-weight: 300;
     margin: 0 auto;
-    width: 65%;
-    font-size: 18px;
-    text-align: justify;
-    padding-top: 15px;
+    width: 64%;
+    margin: 15.5px auto;
     padding-bottom: 15px;
-    font-weight: 300; }
-  /* line 103, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    padding-top: 15px;
+    text-align: justify;
+    width: 64%; }
+  /* line 114, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .technology .video-container {
-    position: relative;
+    height: 0;
     padding-bottom: 56.25%;
     padding-top: 25px;
-    height: 0; }
-    /* line 108, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    position: relative; }
+    /* line 119, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .technology .video-container iframe {
+      border-width: 0;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; }
 
-/* line 115, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 127, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .discover {
   margin-bottom: 50px;
   position: relative;
   text-align: center; }
-  /* line 119, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 131, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .discover .discover_slider {
     display: none;
     margin: 0 auto;
-    width: 75%; }
-    /* line 123, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    width: 67%; }
+    /* line 135, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .discover .discover_slider img {
       width: 100%; }
-    /* line 126, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    /* line 138, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .discover .discover_slider .discover_description h3 {
       color: #4bc1e2;
-      font-size: 22px;
+      font-size: 19.6px;
       font-weight: 400;
       text-align: left;
       text-transform: uppercase; }
-    /* line 132, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    /* line 144, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .discover .discover_slider .discover_description p {
+      font-size: 15.4px;
       font-weight: 300;
       text-align: justify; }
-  /* line 135, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 148, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .discover .buttons_slider {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 15%;
     right: 5%; }
-    /* line 142, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    /* line 154, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .discover .buttons_slider .icon {
       width: 50px;
       margin: 10px; }
 
-/* line 147, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 159, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .discover_more {
-  position: relative; }
-  /* line 149, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  position: relative;
+  padding: 0 15px 0 15px; }
+  /* line 162, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .discover_more .title_section {
     text-align: center;
     width: 100%; }
-  /* line 152, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more .siema {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start; }
-    /* line 157, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card {
-      float: none;
-      width: 48%;
-      height: 500px;
-      background-position: left;
-      background-size: cover;
-      position: relative;
-      margin: 7px; }
-      /* line 165, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .discover_more .siema .card .img_description {
-        background-color: rgba(255, 255, 255, 0.8);
-        height: 25%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        overflow: hidden;
-        transition: 0.5s ease; }
-        /* line 175, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-        .discover_more .siema .card .img_description h4 {
-          color: #4bc1e2;
-          font-weight: 400;
-          text-transform: uppercase; }
-        /* line 179, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-        .discover_more .siema .card .img_description p {
-          font-weight: 300;
-          opacity: 0;
-          transition: 0.7s ease; }
-      /* line 183, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .discover_more .siema .card:hover .img_description {
-        height: 50%; }
-        /* line 185, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-        .discover_more .siema .card:hover .img_description p {
-          opacity: 1; }
-    /* line 187, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_1 {
-      background-image: url("../img/box-bg-1.jpg"); }
-    /* line 189, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_2 {
-      background-image: url("../img/box-bg-2.jpg"); }
-    /* line 191, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_3 {
-      background-image: url("../img/box-bg-3.jpg"); }
-    /* line 193, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_4 {
-      background-image: url("../img/box-bg-4.jpg"); }
-    /* line 195, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_5 {
-      background-image: url("../img/box-bg-5.jpg"); }
-    /* line 197, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card_6 {
-      background-image: url("../img/box-bg-6.jpg"); }
-  /* line 199, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more button {
-    border: none;
-    background: transparent;
-    display: none;
-    position: absolute;
-    top: 50%;
-    z-index: 100; }
-    /* line 206, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more button img {
-      width: 27px; }
-  /* line 208, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more .prev {
-    left: 25px; }
-  /* line 210, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more .next {
-    right: 25px; }
+  /* line 165, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .discover_more .swiper-container {
+    min-height: 450px;
+    width: 100%; }
+    /* line 168, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .discover_more .swiper-container .swiper-wraper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-content: center;
+      align-items: flex-start; }
+      /* line 175, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .swiper-slide {
+        background-position: left;
+        background-size: cover;
+        position: relative;
+        width: 49%;
+        margin-bottom: 2%;
+        height: 500px; }
+        /* line 182, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+        .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description {
+          background-color: rgba(255, 255, 255, 0.8);
+          height: 30%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding: 7.5%;
+          overflow: hidden;
+          transition: 0.5s ease; }
+          /* line 192, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+          .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description h4 {
+            color: #4bc1e2;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 3px; }
+          /* line 197, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+          .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description p {
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0;
+            transition: 0.7s ease; }
+        /* line 202, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+        .discover_more .swiper-container .swiper-wraper .swiper-slide:hover .img_description {
+          height: 60%; }
+          /* line 204, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+          .discover_more .swiper-container .swiper-wraper .swiper-slide:hover .img_description p {
+            opacity: 1; }
+      /* line 206, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_1 {
+        background-image: url("../img/box-bg-1.jpg"); }
+      /* line 208, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_2 {
+        background-image: url("../img/box-bg-2.jpg"); }
+      /* line 210, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_3 {
+        background-image: url("../img/box-bg-3.jpg"); }
+      /* line 212, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_4 {
+        background-image: url("../img/box-bg-4.jpg"); }
+      /* line 214, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_5 {
+        background-image: url("../img/box-bg-5.jpg"); }
+      /* line 216, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .slide_6 {
+        background-image: url("../img/box-bg-6.jpg"); }
 
-/* line 214, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 220, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .specification_list,
 .shops {
   width: 50%;
   float: left;
   padding: 20px;
   text-align: center; }
-  /* line 221, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 226, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .specification_list ul,
   .shops ul {
     list-style-type: none;
     line-height: 1.8;
     font-size: 14px;
     padding: 10px; }
-    /* line 226, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    /* line 231, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .specification_list ul .lblue,
     .shops ul .lblue {
       color: #4bc1e2; }
 
-/* line 229, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-.shops .shop {
-  border: 1px solid #4bc1e2;
-  margin: 0 auto;
-  margin-bottom: 10px;
-  width: 150px; }
-  /* line 234, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .shops .shop img {
-    padding: 5%;
-    width: 90%; }
+/* line 236, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+.specification_list ul li {
+  margin-bottom: 7px; }
 
-/* line 238, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+/* line 239, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+.shops .shop_list {
+  display: flex;
+  flex-direction: column; }
+  /* line 242, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .shops .shop_list .shop {
+    border: 1px solid #4bc1e2;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    position: relative;
+    width: 150px; }
+    /* line 248, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .shops .shop_list .shop img {
+      padding: 5%;
+      width: 90%; }
+    /* line 251, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .shops .shop_list .shop .overlay {
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #4bc1e2;
+      text-transform: uppercase;
+      font-size: 14px;
+      opacity: 0;
+      transition: 0.5s ease; }
+    /* line 267, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .shops .shop_list .shop:hover .overlay {
+      opacity: 1; }
+
+/* line 271, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
 .yoga_star {
   float: left;
+  margin-bottom: 5%;
   width: 100%; }
-  /* line 241, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 275, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .yoga_star img {
     display: block;
     margin: 0 auto;
     width: 50%; }
 
-@media (max-width: 950px) {
-  /* line 248, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+@media (max-width: 990px) {
+  /* line 283, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   header .logo_lenovo {
     width: 56px; }
-  /* line 250, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  header .header_menu {
+  /* line 286, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  header .header_menu > li {
     display: none; }
-  /* line 253, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 288, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  header .hero {
+    background-size: contain; }
+    /* line 290, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    header .hero .hero_content {
+      margin-top: 60px;
+      margin-left: 76px; }
+      /* line 293, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .yoga_logo {
+        margin: 0;
+        width: 200px; }
+      /* line 296, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .title {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 1.1;
+        margin: 12.5px 0; }
+      /* line 302, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content p {
+        font-size: 18px;
+        margin: 14.9px 0;
+        letter-spacing: 0px; }
+      /* line 306, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .btn {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        border: 1px solid #4bc1e2;
+        letter-spacing: 0px; }
+      /* line 313, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .processor img {
+        height: 50px;
+        width: 50px; }
+      /* line 316, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .processor .procesor_description {
+        font-size: 7.9px; }
+  /* line 318, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .title_section {
-    font-size: 16px; }
-  /* line 257, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .technology .description {
-    width: 90%; }
-  /* line 262, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more .siema .card {
-    float: left !important;
-    width: 100% !important; }
-    /* line 265, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .discover_more .siema .card .img_description {
-      height: 50%; }
-      /* line 267, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .discover_more .siema .card .img_description p {
-        opacity: 1; }
-  /* line 269, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .discover_more button {
-    display: block; }
-  /* line 273, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .specification_list,
+    font-size: 16px;
+    margin: 28px 0 14px 0; }
+  /* line 322, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .technology {
+    padding-left: 15px;
+    padding-right: 15px; }
+    /* line 325, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .technology .description {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0; }
+  /* line 330, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .discover .discover_slider {
+    width: 100%; }
+    /* line 332, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .discover .discover_slider .discover_description {
+      padding-left: 15px;
+      padding-right: 15px; }
+  /* line 335, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .discover .buttons_slider {
+    right: 15px; }
+    /* line 337, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .discover .buttons_slider .icon {
+      width: 30px;
+      margin: 5px; }
+  /* line 341, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .discover_more {
+    padding: 0; }
+    /* line 343, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .discover_more .swiper-container {
+      height: 400px; }
+      /* line 346, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-container .swiper-wraper .swiper-slide {
+        width: 100% !important;
+        margin: 0; }
+        /* line 349, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+        .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description {
+          height: 60%;
+          padding: 15px; }
+          /* line 352, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+          .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description h4 {
+            font-size: 17px;
+            letter-spacing: 0px; }
+          /* line 355, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+          .discover_more .swiper-container .swiper-wraper .swiper-slide .img_description p {
+            opacity: 1;
+            font-size: 15px; }
+    /* line 358, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .discover_more .swiper-button-prev,
+    .discover_more .swiper-button-next {
+      top: 15%;
+      z-index: 100; }
+      /* line 362, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .discover_more .swiper-button-prev img,
+      .discover_more .swiper-button-next img {
+        width: 30px; }
+  /* line 366, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .specification_list {
+    width: 100%; }
+    /* line 369, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .specification_list ul li {
+      line-height: 1.6;
+      font-size: 16px; }
+  /* line 373, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .shops {
-    width: 100%; } }
+    width: 100%;
+    padding: 0 15px 15px 15px; }
+    /* line 376, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    .shops .shop_list {
+      flex-direction: row;
+      flex-wrap: wrap; }
+      /* line 379, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      .shops .shop_list .shop {
+        flex-basis: 49%; }
+        /* line 381, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+        .shops .shop_list .shop img {
+          padding: 0;
+          max-width: 233px;
+          height: 100%;
+          width: auto; }
+  /* line 388, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .yoga_star img {
+    width: 90%; } }
 
-@media (max-width: 450px) {
-  /* line 279, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+@media (max-width: 760px) {
+  /* line 393, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   header .logo_lenovo {
     width: 35px; }
-  /* line 281, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-  .hero {
+  /* line 395, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  header .hero {
     background-size: contain;
-    background-position: top right; }
-    /* line 284, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-    .hero .hero_content {
+    background-position: top right;
+    margin-top: 70px; }
+    /* line 399, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    header .hero .hero_content {
       margin: 0 auto;
-      text-align: center; }
-      /* line 287, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .hero .hero_content .yoga_logo {
+      text-align: center;
+      margin-left: 15px;
+      margin-right: 15px; }
+      /* line 404, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .yoga_logo {
         margin: 0 auto;
         margin-top: 50%; }
-      /* line 290, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .hero .hero_content .title {
+      /* line 407, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .title {
         font-size: 30px;
         margin-top: 10px; }
-      /* line 294, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
-      .hero .hero_content .processor img {
+      /* line 411, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .processor img {
         width: 50px;
         height: auto; }
-  /* line 298, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      /* line 414, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+      header .hero .hero_content .processor .processor_description {
+        text-align: left; }
+  /* line 417, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .discover .buttons_slider {
-    top: 40%; }
-    /* line 300, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+    top: 0; }
+    /* line 419, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
     .discover .buttons_slider .icon {
       width: 30px; }
-  /* line 302, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  /* line 421, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
   .specification_list ul {
     list-style-type: disc;
-    text-align: left; } }
+    text-align: left; }
+  /* line 426, C:/Users/chomikoo/Downloads/lenovo/src/scss/style.sass */
+  .yoga-star img {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
