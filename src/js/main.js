@@ -10,14 +10,14 @@ $(document).ready(function() {
 		prevButton: '.swiper-button-prev'
 	};
 	var ViewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-	if (ViewPortWidth < 1200) {
+	if (ViewPortWidth < 990) {
 		mySwiper = new Swiper('.swiper-container', mySwiperOptions)
 		console.log("init 1");
 		console.log(mySwiper);
 	};
 	$(window).resize(function() {
 		var ViewPortWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-		if (ViewPortWidth < 1200) {
+		if (ViewPortWidth < 990) {
 			if (mySwiper == null) {
 				mySwiper = new Swiper('.swiper-container', mySwiperOptions);
 				console.log(mySwiper);
