@@ -46,7 +46,12 @@ header
     background-repeat: no-repeat
     background-size: contain
     .hero_content
-        margin: 90px 0 0 110px
+        margin: 90px 0 0 123px
+        .yoga_logo,
+        .title,
+        p,
+        .btn
+            opacity: 0
         .yoga_logo
             width: 220px
             margin-bottom: 58.8px
@@ -60,9 +65,7 @@ header
         p
             color: $light_blue
             font-size: 18.2px
-            
             letter-spacing: 3px
-            
             margin-bottom: 54.4px
             text-transform: uppercase
         .btn 
@@ -93,6 +96,7 @@ header
                 margin-bottom: -6px
                 font-size: 11px
     
+
 .title_section
         font-size: 25.8px
         font-weight: 400
@@ -218,10 +222,7 @@ header
                 background-image: url("../img/box-bg-5.jpg")
             .slide_6
                 background-image: url("../img/box-bg-6.jpg")
-    .swiper-pagination,
-    .swiper-button-prev,
-    .swiper-button-next
-        display: none
+    
        
         
 .specification_list,
@@ -239,8 +240,9 @@ header
            color: $light_blue
 
 .specification_list
-    ul
-        li
+    .spec-show
+        .spec_element
+            opacity: 0
             margin-bottom: 7px
 .shops
     .shop_list
@@ -392,7 +394,7 @@ header
             flex-direction: row
             flex-wrap: wrap
             .shop
-                flex-basis: 49% 
+                flex-basis: 25% 
                 img 
                     padding: 0   
                     max-width: 233px  

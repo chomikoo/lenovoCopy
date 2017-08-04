@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <!--    Swiper-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!--    main style-->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -49,8 +52,7 @@
             <div class="hero_content">
                 <img src="img/logo_header.png" alt="yoga 910 logo" class="yoga_logo">
                 <h2 class="title">Arcydzieło<br> w każdym detalu</h2>
-                <p>Olśniewajacy obraz 4k
-                    <br> i bezramkowy wyświetlacz</p>
+                <p>Olśniewajacy obraz 4k<br> i bezramkowy wyświetlacz</p>
                 <a href="#shops" class="btn">Sprawdź gdzie kupić</a>
                 <div class="processor">
                     <img src="img/intel-logo.jpg" alt="Intel core i7">
@@ -172,36 +174,46 @@
         <section id="specification" class="specification">
             <div class="specification_list">
                 <h2 class="title_section">Specyfikacja</h2>
-                <ul>
-                    <li><span class="lblue">Procesor:</span> Maksymalnie 7. generacja procesorów Intel® Core i7</li>
-                    <li><span class="lblue">System:</span> Windows 10 Home</li>
-                    <li><span class="lblue">Ekran:</span>14”, 4K (3840 × 2160) IPS lub FHD IPS</li>
-                    <li><span class="lblue">Karta graficzna:</span>Intel® HD 620 Graphics</li>
-                    <li><span class="lblue">Pamięć:</span>Do 16 GB</li>
-                    <li><span class="lblue">Pamięć masowa:</span>Dysk SSD do 1 TB</li>
-                    <li><span class="lblue">Kamera internetowa/mikrofon:</span>720p z podwójnym układem mikrofonów</li>
-                    <li><span class="lblue">Dźwięk:</span>Głośniki stereo z technologią Dolby® Audio™ Premium</li>
-                    <li><span class="lblue">Waga:</span>Od 1,38 kg</li>
-                    <li><span class="lblue">Akumulator:</span>Do 15,5 godz. (Full HD), do 10,5 godz. (UHD)</li>
-                    <li><span class="lblue">Kolory:</span>Szampańskie złoto, platynowe srebro, metaliczny szary</li>
+                <ul class="spec-show">
+                    <li class="spec_element"><span class="lblue">Procesor:</span> Maksymalnie 7. generacja procesorów Intel® Core i7</li>
+                    <li class="spec_element"><span class="lblue">System:</span> Windows 10 Home</li>
+                    <li class="spec_element"><span class="lblue">Ekran:</span>14”, 4K (3840 × 2160) IPS lub FHD IPS</li>
+                    <li class="spec_element"><span class="lblue">Karta graficzna:</span>Intel® HD 620 Graphics</li>
+                    <li class="spec_element"><span class="lblue">Pamięć:</span>Do 16 GB</li>
+                    <li class="spec_element"><span class="lblue">Pamięć masowa:</span>Dysk SSD do 1 TB</li>
+                    <li class="spec_element"><span class="lblue">Kamera internetowa/mikrofon:</span>720p z podwójnym układem mikrofonów</li>
+                    <li class="spec_element"><span class="lblue">Dźwięk:</span>Głośniki stereo z technologią Dolby® Audio™ Premium</li>
+                    <li class="spec_element"><span class="lblue">Waga:</span>Od 1,38 kg</li>
+                    <li class="spec_element"><span class="lblue">Akumulator:</span>Do 15,5 godz. (Full HD), do 10,5 godz. (UHD)</li>
+                    <li class="spec_element"><span class="lblue">Kolory:</span>Szampańskie złoto, platynowe srebro, metaliczny szary</li>
                 </ul>
             </div>
             <div class="shops" id="shops">
                 <h2 class="title_section">Sprawdź cenę</h2>
-                <ul class="shop_list">
-                    <li class="shop">
-                        <a href="https://www.komputronik.pl/productVariantGroup/4252/lenovo-yoga-910-13.html"><img src="./img/shop%20(1).jpg" alt="logo sklepu" /></a>
+                <div class="shop_list">
+
+                     <a href="https://www.komputronik.pl/productVariantGroup/4252/lenovo-yoga-910-13.html">
+                    <div class="shop">
+                       <img src="./img/shop%20(1).jpg" alt="logo sklepu" />
                         <div class="overlay">Sprawdz cenę</div>
-                    </li>
-                    <li class="shop">
-                        <a href="https://www.euro.com.pl/search/laptopy-i-netbooki,rozdzielczosc-ekranu!3840-x-2160-pikseli.bhtml?keyword=lenovo.yoga.910"><img src="./img/shop%20(2).jpg" alt="logo sklepu" /></a>
+                    </div>
+                    </a>
+
+                    <a href="https://www.euro.com.pl/search/laptopy-i-netbooki,rozdzielczosc-ekranu!3840-x-2160-pikseli.bhtml?keyword=lenovo.yoga.910">
+                    <div class="shop">
+                        <img src="./img/shop%20(2).jpg" alt="logo sklepu" />
                         <div class="overlay">Sprawdz cenę</div>
-                    </li>
-                    <li class="shop">
-                        <a href="http://www.mediaexpert.pl/lista,yoga910-6029"><img src="./img/shop%20(1).png" alt="logo sklepu" /></a>
+                    </div>
+                    </a>
+
+                    <a href="http://www.mediaexpert.pl/lista,yoga910-6029">
+                    <div class="shop">
+                        <img src="./img/shop%20(1).png" alt="logo sklepu" />
                         <div class="overlay">Sprawdz cenę</div>
-                    </li>
-                </ul>
+                    </div>
+                    </a>
+
+                </div>
             </div>
         </section>
         <!--        BOTTOM IMAGE   -->
@@ -217,6 +229,7 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.jquery.min.js"></script>
     <script src="js/scrollTo.min.js"></script>
+    <script src="js/scrollSpy.js"></script>
     <script src="js/discover_slider.js"></script>
     <script src="js/main.js"></script>
 </body>

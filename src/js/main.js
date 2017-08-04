@@ -36,4 +36,46 @@ $(document).ready(function() {
 	$("header a").click(function() {
 		$.scrollTo($(this).attr("href"), 900);
 	});
+
+
+	// Animate.css
+
+	// HEADER
+	$(".hero_content .yoga_logo").addClass("animated fadeInLeft");
+	setTimeout(function() {
+		$(".hero_content .title").addClass("animated fadeInLeft");
+	}, 2000);
+	setTimeout(function() {
+		$(".hero_content p").addClass("animated fadeInLeft");
+	}, 2500);
+	setTimeout(function() {
+		$(".hero_content .btn").addClass("animated fadeInLeft");
+	}, 3000);
+
+	// SPECIFICATION
+
+	//show specification
+	// $(".spec-show").on('scrollSpy:enter', function() {
+	// 	console.log("list appear", this);
+	// 	$(".spec_element").addClass("animated fadeInLeft");
+	// });
+	// $(".spec-show").scrollSpy();
+
+
+	
+	
+$(".spec-show").on("scrollSpy:enter", function() {
+	console.log("ev");
+	$(".spec_element").each(function(i) {
+		delay = (i)*500;
+		console.log(i);
+		setTimeout(function(li) {
+			console.log(li);
+			li.addClass("animated fadeInLeft");
+		}, delay, $(this));
+		console.log(this);
+		})
+	});
 });
+
+$(".spec-show").scrollSpy();
