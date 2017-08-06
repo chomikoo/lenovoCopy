@@ -7,7 +7,7 @@ body
     backgroud-color: $color-bg
     font-family: 'Lato', sans-serif
 
-//    / HEADER
+/*    / HEADER*/
 
 header
     .logo_lenovo
@@ -39,7 +39,7 @@ header
                 &.list
                     color: $light_blue
                
-//    /HERO BACKGROUND
+/*/    /HERO BACKGROUND*/
 .hero
     background-image: url("../img/home-bg.jpg")
     background-position: top right
@@ -230,9 +230,7 @@ header
         .swiper-button-prev, 
         .swiper-button-next 
             display: none;
-                
-       
-        
+              
 .specification_list,
 .shops
     width: 50%
@@ -256,6 +254,7 @@ header
     .shop_list
         display: flex
         flex-direction: column
+        overflow: hidden
         .shop
             border: 1px solid $light_blue
             cursor: pointer
@@ -268,6 +267,7 @@ header
                 max-width: 90%
             .overlay
                 color: $white
+                cursor: pointer
                 display: flex
                 justify-content: center
                 align-items: center
@@ -388,7 +388,7 @@ header
             .swiper-button-prev, 
             .swiper-button-next 
                 display: block
-        
+
                         
     .specification_list
         width: 100%
@@ -404,7 +404,7 @@ header
             flex-direction: row
             flex-wrap: wrap
             .shop
-                flex-basis: 49% 
+                flex-basis: 25% 
                 img 
                     padding: 0   
                     max-width: 233px  
